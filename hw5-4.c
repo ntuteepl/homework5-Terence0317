@@ -9,6 +9,6 @@ int main()
     angleh = h * 30 + 0.5 * m;
     anglem = m * 6 ;
     angle = angleh - anglem;
-    if (angle >= 180) printf("%1lf", angle-180);
-    else printf("%1lf", angle);
+    if (angle >= 180) printf("%.3lf", angle-180);
+    else printf("%.3lf", angle);
 }
