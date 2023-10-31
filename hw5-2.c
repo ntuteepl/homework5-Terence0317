@@ -8,6 +8,6 @@ int main()
     scanf("%d", &min);
     if (min >= 0 && min <= 800) cost = 0.9 * min;
     else if (min > 800 && min < 1500) cost = 0.81 * min;
-    else cost = 0.6399 * min;
+    else cost = 0.711 * min;
     printf("%.1lf", cost);
 }
